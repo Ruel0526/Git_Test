@@ -843,15 +843,9 @@ def bitcheck():
     print(is_64bit)
 
 def testing():
-    import os
-    #os.add_dll_directory("C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.0/bin")
-    #os.add_dll_directory("C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.0/libnvvp")
-    print("All devices:", tf.config.list_physical_devices())
-    print("CUDA Available: ", tf.test.is_built_with_cuda())
-    print("cuDNN Version: ", tf.test.gpu_device_name())
-    print(tf.config.list_physical_devices('GPU'))
-    print("Num GPUs Available: ", len(tf.config.experimental.list_physical_devices('GPU')))
+    print('github_testing')
 
+    return 0
 
 
 
