@@ -844,7 +844,7 @@ def bitcheck():
 
 def testing():
     print('github_testing')
-
+    print('How to use GitHub?')
     return 0
 
 
